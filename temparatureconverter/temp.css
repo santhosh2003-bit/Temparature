@@ -1,0 +1,111 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(94, 94, 176);
+
+}
+
+.container {
+    background-color: aliceblue;
+    padding: 0 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+    padding: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 10px 10px 30px 0px rgb(7, 6, 6);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#tempicon{
+    font-size: 35px;
+  color: rgb(251, 5, 5);
+}
+
+h1 {
+    border-bottom: 2px solid gray;
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: animation 3s infinite;
+}
+@keyframes animation{
+    0%{
+        color: red;
+    }
+    50%{
+        color: rgb(0, 255, 85);
+    }
+    100%{
+        color:  wheat;
+    }
+}
+.filrs{
+
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+}
+#Celcius,#farenhite,#Kelvin{
+    color: rgb(88, 42, 132);
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.inputfiled,
+.result {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+input{
+    padding: 20px;
+    text-align: center;
+}
+#btn{
+    width: 50%;
+    padding: 8px;
+    font-size: 1rem;
+    outline: none;
+    background-color: rgb(240, 151, 206);
+    border-radius: 10px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#btn:hover{
+    background-color: rgb(31, 144, 205);
+    color: red;
+}
+
+#Farenhite:hover{
+    border: none;
+    border-radius: 8px;
+box-shadow: 2px 2px 8px 1px #888888;;
+}
+#result:hover{
+    border: none;
+    border-radius: 8px;
+box-shadow: 2px 2px 8px 1px #888888;;
+}
+#degree:hover{
+    border: none;
+    border-radius: 8px;
+box-shadow: 2px 2px 8px 1px #888888;;
+}

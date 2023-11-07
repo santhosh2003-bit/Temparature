@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="icon" href="./temperatureicon.png">
+    <link rel="stylesheet" href="./temp.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+        <h1 class="heading">Temperature Converter</h1>
+        <span id="tempicon" class="material-symbols-outlined">
+            device_thermostat
+            </span>
+        </div>
+        <div class="filrs">
+
+            <div class="inputfiled">
+                <label id="Celcius" for="name">Celcius</label>
+                <input type="text" id="degree" placeholder="enter a Celcius">
+
+            </div>
+            <div class="inputfiled">
+                <label id="farenhite" for="name">Farenhite</label>
+                <input type="text" id="Farenhite" placeholder="enter a Farenhite">
+            </div>
+            <div class="result">
+                <label id="Kelvin" for="">Kelvin</label>
+                <input type="text" id="result" placeholder="your Kelvin">
+            </div>
+        </div>
+        <button id="btn">Refresh</button>
+    </div>
+    <script src="temp.js"></script>
+</body>
+
+</html>
